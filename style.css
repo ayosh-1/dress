@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Rakkas&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lalezar', cursive;
+}
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;   
+    
+}
+.star{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid palevioletred;
+    
+    width: 200px;
+    height: 50px;
+    
+
+    
+}
+.days::after{
+    content: " أيام";
+    position: absolute;
+    right: 86px;
+    top: 27px;
+    color: rgb(231, 168, 184);
+}
+.hours::after{
+    content: "ساعات";
+    position: absolute;
+    right: 135px;
+    top: 26px;
+    color: rgb(231, 168, 184);
+}
+.minutes::after{
+    content: "دقائق";
+    position: absolute;
+    right: 197px;
+    top: 27px;
+    color: rgb(231, 168, 184);
+}
+.seconds::after{
+    content: "ثواني";
+    position: absolute;
+    right: 250px;
+    top: 28px;
+    color: rgb(231, 168, 184);
+}
+
+
+
+
+
+
+nav .logo{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+}
+nav .logo i{
+    color: rgb(231, 168, 184);
+    padding-left: 0.75rem;
+}
+nav .logo h4{
+    font-family: 'Rakkas', cursive;
+}
+nav .nav-items{
+    display: flex;
+    list-style-type: none;
+
+}
+nav .nav-items .nav-item{
+    padding: 0 1rem;
+}
+nav .nav-link{
+    text-decoration: none;
+    color: rgb(230, 168, 183);
+    font-size: 1.4rem;
+}
+nav .nav-link:hover{
+    color:rgb(131, 44, 92) ;
+}
+/* HERO SECTION */
+.hero{
+    background-color: linen;
+}
+.hero-section{
+    max-width: 1366px;
+    height:90vh ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+.hero-section .content{
+    display: flex;
+    flex-direction: column;
+}
+.hero-section h4{
+    color: rgb(14, 13, 13);
+ font-size: 1.6rem;
+ margin-bottom: 1rem;
+}
+.hero-section .content h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: rgb(20, 19, 20);
+}
+.hero-section p{
+    color: black;
+    font-size: 1.4rem;
+}
+.hero-section p span{
+    color: rgb(233, 37, 86);
+}
+.btn{
+    width: 10rem;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    background-color: lightcoral;
+
+}
+.btn:hover{
+    background-color: rgb(136, 92, 92);
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.4rem;
+}
+/* features section */
+section.features{
+    padding: 2rem;
+    background-color: rgb(221, 170, 185);
+}
+section.features .features-section{
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 05rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.features-section h4{
+    color: lightcoral;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+.features-section .qualities{
+    display: flex;
+    justify-content: space-between;
+}
+.features-section .qualities .quality{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightcoral;
+    padding: 2rem;
+    max-width: 17rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.features-section .qualities .quality:hover {
+    border: 2px solid rgb(10, 10, 10); 
+}
+/* dress section */
+.newest-dress{
+    background-color: linen;
+    
+    padding-top: 5rem;
+}
+.newest-dress .dress-section{
+    max-width: 1366;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.dress-section h4{
+    color: red;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.dress-section .dress{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: flex-start;
+    
+}
+.dress .dress{
+    margin: 2rem 0;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.dress img{
+    margin-bottom: 0.2rem;
+
+}
